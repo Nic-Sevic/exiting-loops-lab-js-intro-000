@@ -20,7 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
 
 function findBy(array, findFn) {
   for (let i = 0; i<array.length-1; i++){
-    if (findFn === true){
+    if (array[i] === true){
       return array[i]
     }
     else {
