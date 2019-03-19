@@ -24,9 +24,8 @@ function findBy(array, findFn) {
     if (findFn(test) === true){
       return array[i]
     }
-      return null
-
   }
+  return null
 }
 
 console.log(findBy(([1, 1, 1, 1, 40, 1, 2], n => n === 40)))
