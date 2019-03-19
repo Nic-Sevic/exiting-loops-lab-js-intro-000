@@ -30,4 +30,4 @@ function findBy(array, findFn) {
   }
 }
 
-console.log(findBy)
+console.log(findBy(([1, 1, 1, 1, 40, 1, 2], n => n === 40)))
