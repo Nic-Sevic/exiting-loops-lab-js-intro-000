@@ -1,7 +1,7 @@
 function breakOut(array, changeValue, stopValue) {
   array.forEach (function change(i){
     if (i === stopValue){
-      break
+      break;
     }
     array[i] = changeValue
   })
