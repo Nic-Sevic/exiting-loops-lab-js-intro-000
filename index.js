@@ -1,12 +1,18 @@
 function breakOut(array, changeValue, stopValue) {
   for (var i in array){
+    if (i !== stopValue){
+      array[i] = changeValue
+    }
     if (i === stopValue){
       break
     }
-    array[i] = changeValue
   }
   return array
 }
+
+array1.forEach(function(element) {
+  console.log(element);
+});
 
 function keepGoing(array, changeValue, skipValue) {
   for (var i in array) {
