@@ -29,3 +29,5 @@ function findBy(array, findFn) {
     }
   }
 }
+
+console.log(findBy)
